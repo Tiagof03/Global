@@ -3,10 +3,7 @@
 Este repositorio contiene una solución para detectar, mutar y sanar secuencias de ADN en una matriz de 6x6.
 
 ## Integrantes del Grupo
-- Persona 1
-- Persona 2
-- Persona 3
-- Persona 4
+-Tiago Funes
 
 ## Estructura del Repositorio
 - `clases.py`: Contiene las clases `Detector`, `Mutador`, `Radiacion`, `Virus`, y `Sanador`.
