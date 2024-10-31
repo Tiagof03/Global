@@ -3,6 +3,7 @@
 class Detector:
     """
     Clase encargada de detectar mutantes en una matriz de ADN.
+    
     Atributos:
     - adn: La secuencia de ADN representada como una lista de cadenas de 6 caracteres.
     - dimension: Tamaño de la matriz (6x6).
@@ -15,6 +16,7 @@ class Detector:
     def detectar_mutantes(self) -> bool:
         """
         Detecta si hay mutantes en el ADN en direcciones horizontal, vertical o diagonal.
+
         Returns:
         - True si se detecta un mutante, False en caso contrario.
         """
@@ -177,7 +179,7 @@ class Sanador:
     """
     Clase encargada de sanar mutantes, generando una nueva secuencia de ADN si es necesario.
     """
-    def __init__(self, detector: Detector):
+    def __init__(self, detector: Detector): 
         # El sanador recibe un detector de mutantes para verificar si hay mutaciones en el ADN.
         self.detector = detector
 
